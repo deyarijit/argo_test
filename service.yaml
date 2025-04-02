@@ -4,6 +4,7 @@ metadata:
   name: nginx
   namespace: argo-demo
 spec:
+  type: LoadBalancer
   selector:
     app.kubernetes.io/name: nginx
   ports:
